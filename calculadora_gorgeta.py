@@ -1,7 +1,7 @@
 print("Calculadora de Gorgeta")
 conta = float(input("Qual foi o valor da conta? R$ "))
-gorgeta = int(input("Qual a porcentagem da gorgeta? 10, 12 ou 15?"))
-pessoas = int(input("Quantas pessoas vão dividir a conta?"))
+gorgeta = int(input("Qual a porcentagem da gorgeta? 10, 12 ou 15? "))
+pessoas = int(input("Quantas pessoas vão dividir a conta? "))
 
 gorgeta_as_percent = gorgeta / 100
 total_gorgeta_amount = conta * gorgeta_as_percent
@@ -13,5 +13,5 @@ final_amount = round(conta_per_person, 2)
 
 
 
-print(f"Cada pessoa pagará: ${final_amount}")
+print(f"Cada pessoa pagará: R${final_amount} ")
 
