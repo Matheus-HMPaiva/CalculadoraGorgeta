@@ -13,5 +13,5 @@ final_amount = round(conta_per_person, 2)
 
 
 
-print(f"Cada pessoa pagará: ${final_amount}")
+print(f"Cada pessoa pagará: R${final_amount}")
 
